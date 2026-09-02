@@ -1,8 +1,10 @@
 # Un algoritmo, cuatro estilos
 
 ```bash
-node src/comparar.js
+npm start
 ```
+
+O directo, sin npm: `node src/comparar.js`
 
 Los cuatro imprimen `$2,191.15`. Ese es el punto: **el resultado no distingue paradigmas.**
 
