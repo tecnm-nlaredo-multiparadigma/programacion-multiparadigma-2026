@@ -11,11 +11,11 @@ repositorio de tu pareja, que es publico y es de los dos.
 | Archivo | Que es |
 |---|---|
 | [`INSTALACION.md`](INSTALACION.md) | Node, Git y VS Code. Elixir hasta la semana 3. Prolog no se instala. |
-| [`variantes-tarifarias.md`](variantes-tarifarias.md) | **La variante de reglas de tu equipo.** |
-| [`contrato-de-pareja.md`](contrato-de-pareja.md) | Lo que firman los dos en la semana 3. Leelo completo. |
-| [`anillo-de-revision.md`](anillo-de-revision.md) | A que equipo revisa el tuyo y quien revisa al tuyo. |
-| [`plantilla-revision-pr.md`](plantilla-revision-pr.md) | Las diez preguntas con las que se revisa un PR. |
 | [`competencias.md`](competencias.md) | Las 12 competencias con su clave, su unidad y su checkpoint. |
+
+El contrato de pareja, la variante tarifaria de tu equipo, el anillo de revision y la
+plantilla de revision de PR se publican aqui **cuando esten definidas las parejas**,
+en la semana 3. No los busques todavia.
 
 ## Las tres reglas del curso
 
@@ -33,7 +33,8 @@ entregable perfecto con defensa de nivel 1 vale 40. Con defensa de nivel 0 vale 
 Da igual quien escribio el codigo.
 
 La defensa es **en pareja y los dos responden**. Si uno no puede sostener el codigo,
-baja el coeficiente de los dos, con un tope de un nivel. Esta en el contrato.
+baja el coeficiente de los dos, con un tope de un nivel. Las reglas completas van en
+el contrato de pareja, que se firma en la semana 3.
 
 **3. Hay un candado.** 12 competencias binarias, se necesitan **10 dominadas**
 para acreditar, sin importar que tan bueno sea el proyecto. Se evaluan en
