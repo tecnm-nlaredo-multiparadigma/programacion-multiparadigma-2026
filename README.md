@@ -1,79 +1,67 @@
-# Programacion Multiparadigma · agosto–diciembre 2026
+# Programación Multiparadigma — Agosto–diciembre 2026
 
-TecNM Campus Nuevo Laredo · Academia de Sistemas y Computacion
-Especialidad en Desarrollo de Aplicaciones · Grupo **S2-DDD2502** · 25 estudiantes
+Instituto Tecnológico de Nuevo Laredo · Ingeniería en Sistemas Computacionales
+Especialidad en Desarrollo de Aplicaciones · Grupo S2-DDD2502
 
-Este repositorio es **material de clase**. Lo clonas y lo lees. Tu trabajo va en el
-repositorio de tu pareja, que es publico y es de los dos.
+Este repositorio tiene el material de cada sesión. **Es de solo lectura para ustedes**:
+clónalo, corre los ejemplos, y trabaja en TU repositorio del proyecto.
 
-## Lo que tienes que leer antes que nada
-
-| Archivo | Que es |
-|---|---|
-| [`INSTALACION.md`](INSTALACION.md) | Node, Git y VS Code. Elixir hasta la semana 3. Prolog no se instala. |
-| [`competencias.md`](competencias.md) | Las 12 competencias con su clave, su unidad y su checkpoint. |
-
-El contrato de pareja, la variante tarifaria de tu equipo, el anillo de revision y la
-plantilla de revision de PR se publican aqui **cuando esten definidas las parejas**,
-en la semana 3. No los busques todavia.
-
-## Las tres reglas del curso
-
-**1. Puedes usar IA sin restriccion para construir.** No es un permiso, es un
-requisito. No se usan detectores de IA en esta materia, ni uno.
-
-**2. La IA puede escribir tu codigo; no puede presentar tu defensa.**
-
-```
-calificacion del entregable = calidad x coeficiente de defensa
+```bash
+git clone https://github.com/tecnm-nlaredo-multiparadigma/programacion-multiparadigma-2026.git
+cd programacion-multiparadigma-2026
 ```
 
-El coeficiente sale de la defensa oral frente al repositorio de tu equipo. Un
-entregable perfecto con defensa de nivel 1 vale 40. Con defensa de nivel 0 vale 0.
-Da igual quien escribio el codigo.
+Para actualizarlo cuando suba material nuevo:
 
-La defensa es **en pareja y los dos responden**. Si uno no puede sostener el codigo,
-baja el coeficiente de los dos, con un tope de un nivel. Las reglas completas van en
-el contrato de pareja, que se firma en la semana 3.
+```bash
+git pull
+```
 
-**3. Hay un candado.** 12 competencias binarias, se necesitan **10 dominadas**
-para acreditar, sin importar que tan bueno sea el proyecto. Se evaluan en
-checkpoints de 20 minutos sin IA, al inicio de la sesion.
+## Contenido
 
-> Nadie reprueba por sorpresa. Consultas el tablero cualquier semana y sabes
-> exactamente que te falta.
-
-## El proyecto
-
-Un dominio para todos —cotizacion de cruce fronterizo de carga— y **una variante de
-reglas distinta por equipo**. Se trabaja en parejas, un repositorio por pareja. El proyecto no es trabajo aparte: el entregable de cada unidad es el
-proyecto creciendo.
-
-| Unidad | Entrega | Subsistema | Lenguaje |
-|---|---|---|---|
-| 1 | semana 3 | Carta del proyecto + repositorio con CI en verde | TypeScript |
-| 2 | semana 5 | Motor de calculo puro, sin estado mutable | Elixir |
-| 3 | semana 8 | Modelo de dominio tipado: los estados invalidos no compilan | TypeScript |
-| 4 | semana 10 | Motor de reglas declarativo: reglas como datos | Prolog / SQL |
-| 5 | semana 13 | Procesamiento concurrente de un lote de cotizaciones | Elixir |
-| Cierre | semana 16 | Integracion + ensayo comparativo con una medicion propia | Todos |
-
-Sin el ensayo comparativo no se acredita el proyecto. Quien no encuentre ninguna
-perdida en ningun paradigma va a cero: quien no ve compromisos no esta eligiendo,
-esta prefiriendo.
-
-## Material por sesion
-
-| Carpeta | Sesion | Tema |
+| Carpeta | Sesión | Unidad |
 |---|---|---|
-| [`01-cuatro-estilos/`](01-cuatro-estilos/) | jue 27 ago | El mismo algoritmo en cuatro paradigmas |
-| `02-sin-mutacion/` | mar 8 sep | Quitar la mutacion (Elixir) |
-| `03-mutacion-escondida/` | mar 22 sep | Modulos "funcionales" con mutacion oculta |
-| `04-despacho/` | mar 29 sep | De condicionales sobre tipo a despacho |
-| `05-tipos/` | mar 6 oct | Estado invalido irrepresentable |
-| `06-sql-declarativo/` | mar 27 oct | SQL, NULL y logica trivaluada |
-| `07-especificacion/` | mar 3 nov | Especificacion ambigua contra precisa, con la salida del modelo |
-| `08-carreras/` | lun 9 nov | Actualizacion perdida reproducida de forma determinista |
-| `09-tres-modelos/` | lun 23 nov | Concurrencia en JavaScript, Go y Elixir lado a lado |
+| `01-cuatro-estilos/` | Jueves 27 de agosto | 1 · Fundamentos |
+| `02-sintaxis-y-semantica/` | Miércoles 2 de septiembre | 1 · Fundamentos |
+| `03-ci-en-rojo/` | Jueves 3 de septiembre | 1 · Fundamentos |
+| `04-sin-mutacion/` | Martes 8 de septiembre | 2 · Funcional |
+| `05-mutacion-escondida/` | Martes 22 de septiembre | 2 · Funcional |
+| `06-despacho/` | Martes 29 de septiembre | 3 · Objetos |
+| `07-tipos/` | Martes 6 de octubre | 3 · Objetos |
+| `08-sql-declarativo/` | Martes 27 de octubre | 4 · Declarativo |
+| `09-especificacion/` | Martes 3 de noviembre | 4 · Declarativo |
+| `10-carreras/` | Lunes 9 de noviembre | 5 · Concurrente |
+| `11-tres-modelos/` | Lunes 23 de noviembre | 5 · Concurrente |
 
-Se publican la semana previa a usarse.
+Las carpetas aparecen conforme avanza el semestre.
+
+## Instalación
+
+| Cuándo | Guía |
+|---|---|
+| Antes del jueves 27 de agosto | [`INSTALACION.md`](INSTALACION.md) — Node, VS Code, Git y GitHub (20 min) |
+| Antes del lunes 7 de septiembre | [`INSTALACION-ELIXIR.md`](INSTALACION-ELIXIR.md) — Elixir, para la unidad 2 (15 min) |
+| No se instala | Prolog: se usa SWISH en el navegador (unidad 4) |
+
+## Los cinco paradigmas del curso
+
+| Paradigma | Papel | Lenguaje |
+|---|---|---|
+| Imperativo | De aquí vienes. No se enseña: es el punto de partida | — |
+| Funcional | Unidad 2 | Elixir |
+| Objetos | Unidad 3 | TypeScript |
+| Declarativo y lógico | Unidad 4 | Prolog y SQL |
+| Concurrente | Unidad 5 | Elixir |
+
+## Recursos
+
+Todo abierto y gratuito. No se pide ningún libro.
+
+| Área | Recurso |
+|---|---|
+| TypeScript | TypeScript Handbook · typescript-eslint.io |
+| Elixir | Elixir School (hay versión en español) · hexdocs.pm/elixir |
+| Prolog | Learn Prolog Now! interactivo · SWISH (corre en el navegador, no se instala) |
+| Paradigmas | Van Roy, *Programming Paradigms for Dummies* |
+| Práctica | Exercism — tracks de TypeScript, Elixir y Prolog |
+| Git | conventionalcommits.org (versión en español) |

@@ -1,50 +1,54 @@
-# Instalacion
+# Guía de instalación
 
-Solo hace falta esto para las unidades 1 y 3. Elixir llega en la semana 3 y
-Prolog **no se instala**: corre en el navegador.
+Toma unos 20 minutos. Hazlo **antes** de la sesión del jueves 27.
 
-## Node y npm
+## 1. Node.js 22 LTS
 
-Windows y macOS: descarga la version **LTS 22** de nodejs.org.
-Linux (Debian/Ubuntu): `sudo apt install nodejs npm`
-
-Verifica:
+Descárgalo de nodejs.org y elige la versión **LTS**. Para verificar:
 
 ```bash
-node --version   # debe decir v22.x
+node --version    # debe decir v22.x
 npm --version
 ```
 
-## Git
+## 2. Visual Studio Code
 
-`git --version`. Si no responde, instala de git-scm.com.
+De code.visualstudio.com. Instala estas tres extensiones desde el panel de extensiones:
 
-Configura tu identidad **con el correo institucional**, porque de ahi salen
-las estadisticas del tablero:
+- **ESLint**
+- **Vitest**
+- **EditorConfig for VS Code**
+
+## 3. Git
+
+De git-scm.com. Configúralo **con tus datos reales**, porque de ahí sale tu autoría:
 
 ```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tucorreo@nuevolaredo.tecnm.mx"
+git config --global user.name "Tu Nombre Completo"
+git config --global user.email "tucorreo@ejemplo.com"
 ```
 
-## VS Code
+## 4. Cuenta de GitHub
 
-Extensiones: **ESLint**, **Vitest**, **ElixirLS** (semana 3).
+Con tu nombre real o tu número de control. No un apodo: este repositorio es parte de
+tu portafolio profesional y lo vas a poder enseñar cuando busques trabajo.
 
-## Elixir — semana 3, no antes
-
-elixir-lang.org/install.html. Verifica con `iex` (se sale con `Ctrl+C` dos veces).
-
-## Prolog — no se instala
-
-SWISH corre en el navegador: swish.swi-prolog.org
-
-## Clonar este repositorio
+## 5. Comprueba que todo funciona
 
 ```bash
 git clone https://github.com/tecnm-nlaredo-multiparadigma/programacion-multiparadigma-2026.git
 cd programacion-multiparadigma-2026/01-cuatro-estilos
-node src/comparar.js
+npm start
 ```
 
-Si imprime `$2,191.15` cuatro veces, ya quedo.
+Debe imprimir cuatro veces `$42,500`. Si lo ves, ya está todo listo.
+
+## Lo que NO hay que instalar todavía
+
+- **Prolog** — se usa SWISH, que corre en el navegador. Nunca se instala.
+- **Elixir** — se instala hasta la semana 3. Ya te avisaré.
+
+## Si algo falla
+
+Trae el mensaje de error completo a clase, no una descripción. El mensaje de error
+es información; "no me sirvió" no lo es.
