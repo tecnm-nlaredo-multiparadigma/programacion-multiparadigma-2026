@@ -7,8 +7,6 @@ cinco unidades. Al terminar la sesión tienen que tener el repositorio del equip
 de 1000 kg **en verde**, y un **pull request revisado por el compañero e integrado con CI en
 verde**. Eso es la mitad de la competencia **C1.2**, que se verifica el viernes.
 
-> Los checkpoints, el ensayo comparativo y las 12 competencias siguen siendo **individuales**,
-> sin excepción. La pareja no se lleva ninguna de esas.
 
 ## Antes de empezar
 
