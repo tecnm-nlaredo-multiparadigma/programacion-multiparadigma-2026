@@ -35,10 +35,10 @@ git pull
 
 Las carpetas aparecen conforme avanza el semestre.
 
-## El repositorio de tu proyecto
+## El repositorio del proyecto
 
-Tu trabajo de las cinco unidades vive en TU repositorio, que creas a partir de la
-plantilla. Los once pasos, con los comandos y qué hacer si algo falla, están en
+El proyecto se trabaja en pareja y el repositorio es de los dos, las cinco unidades.
+Los once pasos para crearlo, con los comandos y qué hacer si algo falla, están en
 [`GUIA-REPOSITORIO-DEL-PROYECTO.md`](GUIA-REPOSITORIO-DEL-PROYECTO.md).
 
 ## Instalación
