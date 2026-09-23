@@ -113,7 +113,7 @@ git pull
 npm run verificar
 ```
 
-## Lista de verificación — esto es lo que se revisa el viernes
+## Lista de verificación — esto es lo que se revisa el jueves
 
 - [ ] El repositorio es público y se llama `cotizador-eNN`
 - [ ] Los dos integrantes tienen acceso (B aceptó la invitación)
