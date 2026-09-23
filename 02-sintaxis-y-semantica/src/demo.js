@@ -1,6 +1,6 @@
 import { parsear as infijo }  from './parser-infijo.js';
 import { parsear as prefijo } from './parser-prefijo.js';
-import { evaluar, aPrefijo, costo, profundidad } from './semanticas.js';
+import { evaluar, aPrefijo, costo } from './semanticas.js';
 
 const A = '2 + 3 * 4';
 const B = '(+ 2 (* 3 4))';
@@ -21,7 +21,6 @@ console.log('Un árbol, tres semánticas distintas:\n');
 console.log(`  evaluar    ${evaluar(arbolA)}`);
 console.log(`  aPrefijo   ${aPrefijo(arbolA)}`);
 console.log(`  costo      ${costo(arbolA)} operaciones\n`);
-console.log(` Profundidad del árbol: ${profundidad(arbolA)} niveles de operaciones\n`);
 
 console.log('  La sintaxis es la superficie. El paradigma vive en el árbol y en lo');
 console.log('  que decides que el árbol signifique.\n');

@@ -21,10 +21,3 @@ export function costo(n) {
   if (n.tipo === 'num') return 0;
   return 1 + costo(n.izq) + costo(n.der);
 }
-
-// 4. Profundidad del árbol: cuántos niveles de operaciones hay
-export function profundidad(n){
-    if (n.tipo === 'num') return 0;
-    return 1 + Math.max(profundidad(n.izq), profundidad(n.der));
-  
-}
