@@ -44,14 +44,18 @@ uno nuevo.
 ## Lectura 3 · Una lista es cabeza y cola
 **Después de la clase "Una lista es cabeza y cola"**
 
-- Documentación oficial de Elixir · Recursion: <https://hexdocs.pm/elixir/recursion.html>
-- Elixir School · Funciones, sección de **Recursión** si la tiene; si no, basta la guía oficial.
+- Elixir School · Funciones, sección **Funciones con nombre**: trae un ejemplo recursivo (`Length.of/1`) que es la fila que actuamos en clase: <https://elixirschool.com/es/lessons/basics/functions>
+- Documentación oficial de Elixir · Recursion (en inglés; el código se entiende igual): <https://hexdocs.pm/elixir/recursion.html>
+
+Mientras leen, tengan a la mano la receta de la clase: (1) ¿qué contesto con la lista vacía?, (2) separo
+en `[cabeza | cola]`, (3) si alguien ya me resolvió la cola, ¿qué hago con la cabeza?
 
 **Revísense:**
-1. Tracen a mano `longitud([:a, :b])` con la definición de dos cláusulas. ¿Qué queda pendiente en cada paso?
-2. ¿Qué pasa si escriben solo la cláusula `[cabeza | cola]` y llaman la función con `[]`?
-3. ¿Qué es una función recursiva de cola? ¿Por qué `invertir` con acumulador lo es y `longitud` con `1 +` no?
-4. Escriban `suma/1` con acumulador, sin `Enum`.
+1. Con la receta, escriban `multiplicar/1`. ¿Qué contesta la lista vacía y por qué no es 0?
+2. Sustituyan paso a paso, como en clase: `sumar([4, 1])` con `def sumar([]), do: 0` y `def sumar([c | cola]), do: c + sumar(cola)`.
+3. ¿Qué pasa si escriben solo la cláusula `[cabeza | cola]` y llaman la función con `[]`? Lean el error: ¿qué les dice que llegó?
+4. En `def f([]), do: ...` y `def f([h | t]), do: ...`: ¿cuántas funciones hay? ¿Cómo decide Elixir cuál cláusula usar?
+5. El fragmento 3 usa una "mochila" (acumulador). Escriban `suma/1` con acumulador, sin `Enum`.
 
 ---
 

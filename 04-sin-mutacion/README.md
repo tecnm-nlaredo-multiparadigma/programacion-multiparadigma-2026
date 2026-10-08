@@ -8,6 +8,7 @@ Unidad 2 · Paradigma funcional en Elixir
 | Taller: quitar la mutación | `imperativo.ts`, `ejercicios/lib/sin_mutacion.ex` y `respuestas-plantilla.md` |
 | Descomponer, no preguntar | `fragmentos/mie-30.exs`, `ejercicios/lib/patrones.ex` y `respuestas-patrones.md` |
 | Una lista es cabeza y cola | `fragmentos/jue-01.exs` y `ejercicios/lib/recursion.ex` |
+| map, filter y reduce | `fragmentos/vie-09.exs` y `ejercicios/lib/orden_superior.ex` |
 
 ## Cómo se trabaja
 
@@ -16,15 +17,25 @@ cd 04-sin-mutacion/ejercicios
 mix test test/sin_mutacion_test.exs    # taller
 mix test test/patrones_test.exs        # patrones
 mix test test/recursion_test.exs       # recursión
+mix test test/orden_superior_test.exs  # map, filter y reduce
 ```
 
 Todas arrancan en rojo. Cada función trae un `raise("por implementar")`: reemplázalo.
+
+Los fragmentos de clase se cargan en `iex` desde esta carpeta, y luego se escribe la llamada de cada uno:
+
+```bash
+cd 04-sin-mutacion
+iex fragmentos/jue-01.exs    # luego: F1.f1([:a, :b, :c])
+iex fragmentos/vie-09.exs    # luego: O.map([1, 2, 3], fn x -> x * 10 end)
+```
 
 ## Las reglas de cada día
 
 - **Taller:** antes de escribir, di en voz alta qué muta la versión de TypeScript y quién más se entera.
 - **Patrones:** ni un solo `if`, `cond` ni `case` sobre el tipo. Cada decisión es una cláusula.
 - **Recursión:** nada de `Enum`, `List` ni `length/1`. Solo `[cabeza | cola]`.
+- **map, filter y reduce:** nada de `Enum` ni `List`. Primero las tres generales; `total_pesos`, `pesados` e `ids` se escriben usándolas. El reto (`map_con_reduce`) usa solo tu `reduce`.
 
 La IA está permitida. Al final de cada sesión se le pregunta a alguien, al azar, por qué su versión cumple la regla del día.
 

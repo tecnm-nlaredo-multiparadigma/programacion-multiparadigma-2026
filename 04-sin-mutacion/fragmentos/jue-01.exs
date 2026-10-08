@@ -41,7 +41,9 @@ F4.f4([800, 1200, 15_000, 999])
 
 # --- Fragmento 5  (la que no termina bien; la llamada va comentada para que el archivo cargue)
 defmodule F5 do
+  def f5([]), do: 0
   def f5([h | t]), do: h + f5(t)
 end
 
-# F5.f5([1, 2, 3])
+
+#F5.f5([1, 2, 3])
