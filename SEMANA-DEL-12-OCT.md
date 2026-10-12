@@ -49,7 +49,3 @@ En el canal de Teams, así:
 > **Mi código:** (solo la función, no todo el archivo)
 
 Antes de preguntar, lean el error completo: casi siempre dice qué llegó y qué esperaba.
-
-## Si no les alcanza para todo
-
-Prioridad: **1)** el arranque, **2)** el taller 3, **3)** la etapa 1 del motor, **4)** la guía 05.
