@@ -24,14 +24,13 @@ git pull
 | `01-cuatro-estilos/` | Jueves 27 de agosto | 1 · Fundamentos |
 | `02-sintaxis-y-semantica/` | Miércoles 2 de septiembre | 1 · Fundamentos |
 | `03-ci-en-rojo/` | Jueves 3 de septiembre | 1 · Fundamentos |
-| `04-sin-mutacion/` | Martes 8 de septiembre | 2 · Funcional |
-| `05-mutacion-escondida/` | Martes 22 de septiembre | 2 · Funcional |
-| `06-despacho/` | Martes 29 de septiembre | 3 · Objetos |
-| `07-tipos/` | Martes 6 de octubre | 3 · Objetos |
-| `08-sql-declarativo/` | Martes 27 de octubre | 4 · Declarativo |
-| `09-especificacion/` | Martes 3 de noviembre | 4 · Declarativo |
-| `10-carreras/` | Lunes 9 de noviembre | 5 · Concurrente |
-| `11-tres-modelos/` | Lunes 23 de noviembre | 5 · Concurrente |
+| `04-sin-mutacion/` | 30 de septiembre al 8 de octubre | 2 · Funcional |
+| `05-pipe-y-with/` | Martes 13 de octubre | 2 · Funcional |
+| `06-mutacion-escondida/` | Taller 3 · jueves 15 de octubre | 2 · Funcional |
+
+**Semana del 12 al 16 de octubre:** empieza por [`SEMANA-DEL-12-OCT.md`](SEMANA-DEL-12-OCT.md).
+Las lecturas de la unidad están en [`LECTURAS-UNIDAD-2.md`](LECTURAS-UNIDAD-2.md) y el proyecto del
+parcial en [`proyecto/`](proyecto/).
 
 Las carpetas aparecen conforme avanza el semestre.
 

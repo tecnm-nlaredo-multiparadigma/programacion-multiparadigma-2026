@@ -23,7 +23,7 @@ Cada parte es de 100 a 200 líneas. Pequeño a propósito.
 
 | Qué | Cuándo | Cómo se entrega |
 |---|---|---|
-| Arranque: variante asignada y primera prueba en verde | mié 7 oct, en clase | PR integrado con CI en verde |
+| Arranque: variante asignada y primera prueba en verde | lun 12 oct (`ARRANQUE.md`) | PR integrado; liga en Teams |
 | **Hito 1 · el motor** | **mié 21 oct, 23:59** | Etiqueta `hito-1` en `main` |
 | **Entrega final · motor + modelo** | **jue 29 oct, 23:59** | Etiqueta `parcial-2` en `main` |
 | Defensa del equipo (10 min) | vie 30 oct · mar 3 · mié 4 nov | En clase, con su repositorio abierto |
@@ -153,14 +153,16 @@ Condiciones que se revisan en la defensa:
 ## Cómo trabajan en pareja
 
 El repositorio es de los dos. Para este parcial, **A escribe el motor y B lo revisa; B escribe el
-modelo y A lo revisa.** Ningún PR entra a `main` sin la aprobación del otro y con CI en verde.
+modelo y A lo revisa.** Ningún PR entra a `main` sin la aprobación del otro. Hasta el hito 1, el CI del
+motor puede estar en rojo **solo** porque hay pruebas de aceptación pendientes (nunca por formato ni por
+un error de compilación); **desde la etiqueta `hito-1`, ningún PR entra con el CI en rojo.**
 
 > En la defensa, **al integrante A se le pregunta por el modelo, y a B por el motor.** Lo que escribió tu
 > compañero lo tienes que poder explicar tú. Aprobar un PR sin leerlo se paga ahí.
 
 ## Los talleres
 
-Cada semana hay un taller. **Se entrega el mismo día del taller, antes de las 23:59:** cada quien sube su
+Cada semana hay un taller. **Se entrega el día que diga su guía, antes de las 23:59** (casi siempre, el mismo día del taller): cada quien sube su
 trabajo al repositorio del equipo, en `talleres/<fecha>/<tu número de control>/` (por ejemplo
 `talleres/01-oct/22100181/`). Son cinco talleres en el parcial; la fecha de cada uno se anuncia en clase, **2 puntos cada uno
 por entrega a tiempo**: 10 % del parcial. La carpeta con tu número de control es la que se cuenta.

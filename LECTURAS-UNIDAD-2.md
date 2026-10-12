@@ -1,6 +1,6 @@
 # Lecturas guiadas · Unidad 2 (Elixir)
 
-Cada lectura es corta (15 a 20 minutos) y va con una clase. Léanla **después** de esa clase, con `iex`
+Cada lectura va con una clase. Léanla **después** de esa clase, con `iex`
 abierto: cada ejemplo de la lectura se escribe y se corre, no solo se lee. Al final de cada una hay
 preguntas para que se revisen ustedes mismos. **No se entregan**, pero son del mismo tipo que los
 reactivos del checkpoint del 6 de noviembre.
@@ -70,3 +70,22 @@ en `[cabeza | cola]`, (3) si alguien ya me resolvió la cola, ¿qué hago con la
 2. Reescriban con `|>`: `Enum.sum(Enum.map(Enum.filter(es, &(&1.peso_kg > 1000)), & &1.peso_kg))`.
 3. ¿En qué posición pone `|>` lo que viene de la izquierda?
 4. ¿Por qué `Enum.reduce` no necesita una variable que cambie para acumular?
+
+---
+
+## Lectura 5 · El camino feliz y la frontera
+**Con la guía 05 (`05-pipe-y-with/GUIA.md`)**
+
+- Elixir School · Operador pipe (si no la leyeron con la lectura 4): <https://elixirschool.com/es/lessons/basics/pipe_operator>
+- Elixir School · Estructuras de control, solo la sección **with**: <https://elixirschool.com/es/lessons/basics/control_structures>
+
+Mientras leen, fíjense en que `with` es coincidencia de patrones encadenada: cada `<-` es un `=` que, si
+no encaja, en lugar de tronar con `MatchError` sale del `with` con lo que no encajó.
+
+**Revísense:**
+1. ¿Qué diferencia hay entre `{:ok, x} = algo()` y `{:ok, x} <- algo()` dentro de un `with`, cuando
+   `algo()` regresa `{:error, :no}`?
+2. Escriban con `with` una función que reciba un mapa y regrese `{:ok, peso * distancia}` solo si los
+   dos son positivos, y el primer error si no.
+3. ¿Por qué su `Cotizador` recibe las reglas como argumento en lugar de leerlas de un archivo? Den dos
+   razones.
