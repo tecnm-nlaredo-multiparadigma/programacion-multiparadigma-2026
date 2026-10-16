@@ -72,6 +72,8 @@ mix new motor --module Cotizador
 rm motor/test/cotizador_test.exs
 ```
 
+En `motor/mix.exs`, cambien la línea `elixir: "~> 1.xx",` por `elixir: "~> 1.16",` (la versión del CI).
+
 `mix new` crea una prueba de ejemplo (`cotizador_test.exs`) que no es suya: bórrenla.
 
 Ahora copien **sus** pruebas y el CI. Supone que el repositorio del curso está clonado junto al suyo
@@ -159,6 +161,7 @@ va siempre en verde.
 |---|---|
 | `mix: command not found` | Elixir no está instalado: `INSTALACION-ELIXIR.md`. Mientras, trabajen en la máquina del compañero. |
 | El CI de Elixir no aparece en Actions | El archivo no está en `.github/workflows/` de la raíz, o Actions está deshabilitado (pestaña Actions, habilitar flujos). |
+| En el CI falla con `You're trying to run :motor on Elixir v1.16` | `mix new` puso su versión de Elixir (por ejemplo `~> 1.20`) y el CI usa la 1.16. En `motor/mix.exs` cambien esa línea a `elixir: "~> 1.16",`. |
 | Falla `mix format --check-formatted` | Corran `mix format` dentro de `motor/` y hagan commit otra vez. |
 | `module Cotizador is not available` en todas | El módulo no se llama `Cotizador`: revisen la primera línea de `lib/cotizador.ex`. |
 | Salen más de 16 pruebas, o una que dice `greets the world` | No borraron `motor/test/cotizador_test.exs`. |
