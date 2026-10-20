@@ -1,6 +1,6 @@
 # Guía del motor · por etapas, hasta el hito 1
 
-**Hito 1: miércoles 21 de octubre, 23:59** · etiqueta `hito-1` en `main`
+**Hito 1: viernes 23 de octubre, 23:59** · etiqueta `hito-1` en `main`
 
 Sus 16 pruebas de aceptación se agrupan en **cuatro etapas**. Cada etapa es **una rama y un PR**: A
 escribe, B revisa con la lista del final, e integran.
@@ -9,8 +9,8 @@ escribe, B revisa con la lista del final, e integran.
 |---|---|---|---|
 | 1 · Los rechazos | las 7 que empiezan con **"rechaza"** | patrones, guardas, `with` | **miércoles 14** |
 | 2 · El flete | "por debajo del umbral", "EXACTAMENTE en el umbral", "un kilo arriba", "puente Colombia" | aritmética entera, cláusulas | **viernes 16** |
-| 3 · Recargos y mínimo | "refrigerada", "peligrosa", "sobredimensionada… peso máximo", "viaje corto" | `Map.fetch!`, cláusulas | lunes 19 |
-| 4 · El resumen | "lote mixto" | `\|>`, `Enum.reduce`, mapas | martes 20 |
+| 3 · Recargos y mínimo | "refrigerada", "peligrosa", "sobredimensionada… peso máximo", "viaje corto" | `Map.fetch!`, cláusulas | **miércoles 21** |
+| 4 · El resumen | "lote mixto" | `\|>`, `Enum.reduce`, mapas | **jueves 22** |
 
 Las **pistas** están escondidas: ábranlas solo después de intentarlo.
 
@@ -132,7 +132,7 @@ truena. Pero ya no puede pasar, porque `validar` lo rechazó antes.
 
 ---
 
-## Etapa 3 · Recargos y mínimo (meta: lunes 19)
+## Etapa 3 · Recargos y mínimo (meta: miércoles 21)
 
 - `Map.fetch!(reglas.recargo, embarque.tipo)` les da `%{pct: _, fija: _}`.
 - **La base** del porcentaje depende de `reglas.base_recargo`: `:flete` o `:subtotal` (flete más
@@ -145,7 +145,7 @@ en el arranque): si su cuenta a mano no da, el código tampoco va a dar.
 
 ---
 
-## Etapa 4 · El resumen (meta: martes 20)
+## Etapa 4 · El resumen (meta: jueves 22)
 
 `resumen/2` **se escribe con `Enum` y `|>`**:
 
@@ -175,7 +175,7 @@ tres preguntas, y que de verdad se use.
 
 ---
 
-## El hito (miércoles 21)
+## El hito (viernes 23)
 
 ```bash
 git switch main && git pull

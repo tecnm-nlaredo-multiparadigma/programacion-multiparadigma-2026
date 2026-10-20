@@ -24,7 +24,7 @@ Cada parte es de 100 a 200 líneas. Pequeño a propósito.
 | Qué | Cuándo | Cómo se entrega |
 |---|---|---|
 | Arranque: variante asignada y primera prueba en verde | lun 12 oct (`ARRANQUE.md`) | PR integrado; liga en Teams |
-| **Hito 1 · el motor** | **mié 21 oct, 23:59** | Etiqueta `hito-1` en `main` |
+| **Hito 1 · el motor** | **vie 23 oct, 23:59** | Etiqueta `hito-1` en `main` |
 | **Entrega final · motor + modelo** | **jue 29 oct, 23:59** | Etiqueta `parcial-2` en `main` |
 | Defensa del equipo (10 min) | vie 30 oct · mar 3 · mié 4 nov | En clase, con su repositorio abierto |
 | Checkpoint 2 (individual, sin IA) | vie 6 nov | 20 minutos, en clase |

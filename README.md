@@ -27,10 +27,12 @@ git pull
 | `04-sin-mutacion/` | 30 de septiembre al 8 de octubre | 2 · Funcional |
 | `05-pipe-y-with/` | Martes 13 de octubre | 2 · Funcional |
 | `06-mutacion-escondida/` | Taller 3 · jueves 15 de octubre | 2 · Funcional |
+| `07-despacho/` | Taller 4 · martes 20 de octubre | 3 · Objetos y tipos |
+| `08-uniones/` | Jueves 22 de octubre | 3 · Objetos y tipos |
 
-**Semana del 12 al 16 de octubre:** empieza por [`SEMANA-DEL-12-OCT.md`](SEMANA-DEL-12-OCT.md).
-Las lecturas de la unidad están en [`LECTURAS-UNIDAD-2.md`](LECTURAS-UNIDAD-2.md) y el proyecto del
-parcial en [`proyecto/`](proyecto/).
+**Esta semana:** empieza por [`SEMANA-DEL-19-OCT.md`](SEMANA-DEL-19-OCT.md).
+Lecturas: [`LECTURAS-UNIDAD-2.md`](LECTURAS-UNIDAD-2.md) y [`LECTURAS-UNIDAD-3.md`](LECTURAS-UNIDAD-3.md). El proyecto
+del parcial está en [`proyecto/`](proyecto/).
 
 Las carpetas aparecen conforme avanza el semestre.
 

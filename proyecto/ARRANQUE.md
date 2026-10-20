@@ -4,7 +4,7 @@
 Al terminar: el motor creado, sus pruebas corriendo en CI y **una prueba en verde integrada por PR**.
 
 > **El proyecto en una frase.** Van a escribir **el mismo cotizador dos veces**: una en Elixir,
-> donde no se puede mutar (el **motor**, hito 1 el **miércoles 21**), y otra en TypeScript, con tipos
+> donde no se puede mutar (el **motor**, hito 1 el **viernes 23**), y otra en TypeScript, con tipos
 > que no dejan escribir un estado imposible (el **modelo**, entrega final el **jueves 29**). Las dos
 > tienen que dar **los mismos centavos**.
 
@@ -166,4 +166,4 @@ va siempre en verde.
 | `module Cotizador is not available` en todas | El módulo no se llama `Cotizador`: revisen la primera línea de `lib/cotizador.ex`. |
 | Salen más de 16 pruebas, o una que dice `greets the world` | No borraron `motor/test/cotizador_test.exs`. |
 
-**Siguiente:** `proyecto/GUIA-DEL-MOTOR.md`, por etapas, hasta el hito del miércoles 21.
+**Siguiente:** `proyecto/GUIA-DEL-MOTOR.md`, por etapas, hasta el hito del viernes 23.
