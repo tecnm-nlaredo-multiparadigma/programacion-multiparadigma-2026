@@ -1,7 +1,7 @@
 // Taller 4 · De condicionales a despacho
 // La versión "de siempre": cada función pregunta por el tipo de carga con un switch.
 
-export type Tipo = 'general' | 'refrigerada' | 'peligrosa' | 'sobredimensionada';
+export type Tipo = 'general' | 'refrigerada' | 'peligrosa' | 'sobredimensionada' | 'perecedera';
 
 const pct = (monto: number, p: number): number => Math.floor((monto * p + 50) / 100);
 
@@ -13,6 +13,8 @@ export function recargo(tipo: Tipo, base: number): number {
       return pct(base, 20) + 75000;
     case 'sobredimensionada':
       return pct(base, 35) + 150000;
+    case 'perecedera':
+      return pct(base, 50) + 350000;
     default:
       return 0;
   }
@@ -44,7 +46,7 @@ export function etiqueta(tipo: Tipo): string {
 
 // ------------------------------------------------------------------ demostración
 // npm run condicionales
-const tipos: Tipo[] = ['general', 'refrigerada', 'peligrosa', 'sobredimensionada'];
+const tipos: Tipo[] = ['general', 'refrigerada', 'peligrosa', 'sobredimensionada', 'perecedera'];
 for (const t of tipos) {
   console.log(t.padEnd(18), recargo(t, 100000), documentoRequerido(t), etiqueta(t));
 }

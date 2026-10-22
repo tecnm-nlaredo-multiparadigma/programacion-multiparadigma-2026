@@ -5,6 +5,9 @@
   "private": true,
   "scripts": {
     "condicionales": "tsx src/condicionales.ts",
+    "despacho": "tsx src/demo.ts",
+    "fragmentos": "tsx fragmentos/tabla.ts",
+    "fragmento4": "tsc --noEmit -p fragmentos",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "verificar": "npm run typecheck && npm run test"
