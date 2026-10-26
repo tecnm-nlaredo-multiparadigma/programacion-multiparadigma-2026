@@ -8,6 +8,7 @@
     "despacho": "tsx src/demo.ts",
     "fragmentos": "tsx fragmentos/tabla.ts",
     "fragmento4": "tsc --noEmit -p fragmentos",
+    "fragmento5": "tsc --noEmit -p fragmentos/tsconfig.5.json",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "verificar": "npm run typecheck && npm run test"

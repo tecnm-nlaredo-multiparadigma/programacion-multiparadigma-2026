@@ -29,8 +29,10 @@ git pull
 | `06-mutacion-escondida/` | Taller 3 · jueves 15 de octubre | 2 · Funcional |
 | `07-despacho/` | Taller 4 · martes 20 de octubre | 3 · Objetos y tipos |
 | `08-uniones/` | Jueves 22 de octubre | 3 · Objetos y tipos |
+| `09-composicion/` | Taller 5 · martes 27 de octubre | 3 · Objetos y tipos |
 
-**Esta semana:** empieza por [`SEMANA-DEL-19-OCT.md`](SEMANA-DEL-19-OCT.md).
+**Esta semana:** empieza por [`SEMANA-DEL-26-OCT.md`](SEMANA-DEL-26-OCT.md). Orden de defensas:
+[`proyecto/DEFENSAS.md`](proyecto/DEFENSAS.md).
 Lecturas: [`LECTURAS-UNIDAD-2.md`](LECTURAS-UNIDAD-2.md) y [`LECTURAS-UNIDAD-3.md`](LECTURAS-UNIDAD-3.md). El proyecto
 del parcial está en [`proyecto/`](proyecto/).
 
