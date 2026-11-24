@@ -1,6 +1,6 @@
 # Guía de las reglas · por etapas, hasta la entrega
 
-**Entrega: viernes 20 de noviembre, 23:59** · etiqueta `reglas` en `main`
+**Entrega: lunes 30 de noviembre, 23:59** · etiqueta `reglas` en `main`
 
 Sus 16 pruebas de aceptación en Prolog se agrupan en **tres etapas**, más una cuarta de SQL. Cada
 etapa es **una rama y un PR**: A escribe, B revisa con la lista del final, e integran.
@@ -210,7 +210,7 @@ respuesta (si al pedir `;` aparece otra, hay un corte que falta).
 
 ## Etapa 4 · Las consultas SQL (meta: jueves 19)
 
-Viene con el taller 7 (`12-sql-declarativo/`, martes 17). Ahí está `cotizaciones.db` y la
+Viene con el [taller 7](../12-sql-declarativo/). Ahí está `cotizaciones.db` y la
 descripción de las tres consultas de `reglas/resumen.sql`. Se comprueban con:
 
 ```bash
@@ -221,7 +221,7 @@ y se comparan con `12-sql-declarativo/esperado.txt`.
 
 ---
 
-## La entrega (viernes 20)
+## La entrega
 
 ```bash
 git switch main && git pull
@@ -230,7 +230,7 @@ git tag reglas
 git push origin reglas
 ```
 
-La etiqueta es lo que se califica, a las 23:59.
+Se califica el contenido de la etiqueta `reglas` al corte del [calendario de cierre](../CIERRE-TERCER-PARCIAL.md).
 
 ---
 

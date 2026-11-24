@@ -11,12 +11,12 @@ Empieza con el [proyecto del tercer parcial](proyecto/PROYECTO-PARCIAL-3.md). Ca
 | Mié 2 dic, 23:59 | [Taller 8](13-carreras/) y [primera revisión entre equipos](proyecto/GUIA-DEL-ANILLO.md). |
 | Jue 3 dic, 23:59 | Vence el [taller 9](15-tres-modelos/). Sin clase presencial. |
 | Vie 4 dic, 23:59 | Etiqueta `final` con [lote](proyecto/GUIA-DEL-LOTE.md), prueba de carrera y [ensayo individual](proyecto/GUIA-DEL-ENSAYO.md). |
-| Lun 7 dic, 23:59 | Segunda revisión entre equipos. |
+| Lun 7 dic, 23:59 | [Segunda revisión entre equipos](proyecto/GUIA-DEL-ANILLO.md). |
 | Lun 7–mié 9 dic | Defensas. Cada integrante debe explicar decisiones y mediciones del proyecto. |
 | Jue 10 dic | Aclaraciones y margen para defensas pendientes. |
 | Vie 11 dic | Aclaraciones y cierre del parcial. |
 
-Horarios de Nuevo Laredo. Las fechas en los nombres de las carpetas de talleres sirven para ubicar las entregas.
+Todas las fechas límite de este parcial están en esta tabla y usan el horario de Nuevo Laredo. Las fechas en los nombres de las carpetas de talleres sirven para ubicar las entregas.
 
 ## Cómo organizar el trabajo
 

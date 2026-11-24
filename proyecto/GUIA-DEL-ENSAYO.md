@@ -1,5 +1,7 @@
 # Guía del ensayo individual
 
+**Entrega:** viernes 4 de diciembre, 23:59 · etiqueta `final` en `main`. [Calendario de cierre](../CIERRE-TERCER-PARCIAL.md).
+
 Entrega `ensayo/<control>.md`, de una a dos páginas. Usa estas tres secciones: **Por qué cada paradigma**, **Qué se ganó y qué se perdió** y **La medición**. Incluye motor Elixir, modelo TypeScript, reglas Prolog y lote concurrente. Explica al menos una limitación concreta en cada versión.
 
 Copia `plantilla-lote/comparar.exs` y el archivo `aceptacion-lote/EXX/visibles/reglas_lote.exs` a `motor/`. Desde esa carpeta corre `mix run comparar.exs reglas_lote.exs`. Anota la mediana de cinco muestras, tu equipo y la versión de Elixir. El script comprueba que ambos resúmenes coincidan.

@@ -1,7 +1,7 @@
 # Taller 6 · Unificación paso a paso
 
 Unidad 4 · Prolog · **individual**
-**Entrega: martes 10 de noviembre, 23:59** · `talleres/10-nov/<tu número de control>/`
+**Entrega: lunes 30 de noviembre, 23:59** · `talleres/10-nov/<tu número de control>/`
 
 En Prolog no hay asignación: hay **unificación**. Dos términos unifican si existe una forma de
 ligar sus variables para que queden idénticos. Es lo que hace el motor en cada paso: toma la
@@ -120,7 +120,7 @@ Prolog primero? ¿Qué pasa en la cabeza? ¿Y en la segunda? Escríbelo paso a p
 
 ## Entregar
 
-En el repositorio de tu equipo, **antes del martes 10 a las 23:59**:
+En el repositorio de tu equipo, **antes del corte del [calendario de cierre](../CIERRE-TERCER-PARCIAL.md)**:
 
 ```bash
 cd cotizador-eNN

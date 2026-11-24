@@ -1,5 +1,7 @@
 # Taller 7 SQL declarativo
 
+**Entrega:** lunes 30 de noviembre, 23:59. [Calendario de cierre](../CIERRE-TERCER-PARCIAL.md).
+
 La base [cotizaciones.db](cotizaciones.db) contiene embarques sintéticos ya cotizados o rechazados. Cada fila tiene el orden de llegada, el identificador, el puente, el tipo, el número UN cuando existe y exactamente uno de los siguientes datos: total en centavos o motivo de rechazo.
 
 1. Obtén una fila por puente con nombre, cantidad de cotizaciones válidas y suma de centavos. Ordena por nombre del puente.

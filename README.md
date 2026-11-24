@@ -35,7 +35,7 @@ Consulta el [calendario de cierre y los materiales](CIERRE-TERCER-PARCIAL.md).
 | `08-uniones/` | Jueves 22 de octubre | 3 · Objetos y tipos |
 | `09-composicion/` | Taller 5 · martes 27 de octubre | 3 · Objetos y tipos |
 
-**Esta semana:** empieza por [`SEMANA-DEL-26-OCT.md`](SEMANA-DEL-26-OCT.md). Orden de defensas:
+**Archivo del segundo parcial:** [semana del 26 de octubre](SEMANA-DEL-26-OCT.md). Orden de defensas de ese parcial:
 [`proyecto/DEFENSAS.md`](proyecto/DEFENSAS.md).
 Lecturas: [`LECTURAS-UNIDAD-2.md`](LECTURAS-UNIDAD-2.md) y [`LECTURAS-UNIDAD-3.md`](LECTURAS-UNIDAD-3.md). El proyecto
 del parcial está en [`proyecto/`](proyecto/).
