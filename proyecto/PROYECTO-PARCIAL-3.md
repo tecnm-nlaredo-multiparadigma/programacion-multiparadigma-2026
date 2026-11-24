@@ -173,7 +173,7 @@ repositorio del equipo. **2.5 puntos cada uno por entrega a tiempo.** El checkpo
 | 6 · Unificación paso a paso | lun 30 nov, 23:59 | `talleres/10-nov/` |
 | 7 · SQL es declarativo | lun 30 nov, 23:59 | `talleres/17-nov/` |
 | 8 · Encontrar la carrera | mié 2 dic, 23:59 | `talleres/24-nov/` |
-| 9 · Elegir el modelo correcto | vie 4 dic, 23:59 | `talleres/01-dic/` |
+| 9 · Elegir el modelo correcto | jue 3 dic, 23:59 | `talleres/01-dic/` |
 
 ## El anillo
 
