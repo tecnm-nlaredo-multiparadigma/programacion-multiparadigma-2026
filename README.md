@@ -17,6 +17,10 @@ Para actualizarlo cuando suba material nuevo:
 git pull
 ```
 
+## Tercer parcial
+
+Consulta el [calendario de cierre y los materiales](CIERRE-TERCER-PARCIAL.md).
+
 ## Contenido
 
 | Carpeta | Sesión | Unidad |

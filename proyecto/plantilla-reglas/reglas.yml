@@ -1,0 +1,14 @@
+# Copien este archivo a .github/workflows/reglas.yml en el repositorio del equipo.
+# Corre las pruebas de aceptación de las reglas en Prolog en cada push y en cada pull request.
+name: reglas
+on: [push, pull_request]
+jobs:
+  reglas:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: reglas
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq swi-prolog-nox
+      - run: swipl -g run_tests -t halt aceptacion.plt

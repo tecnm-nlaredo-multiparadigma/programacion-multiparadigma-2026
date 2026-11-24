@@ -1,0 +1,8 @@
+colombia|2|365000
+comercio_mundial|2|505500
+A02|falta_numero_un
+A05|falta_permiso
+A07|falta_numero_un
+A08|peso_invalido
+A02
+A07
