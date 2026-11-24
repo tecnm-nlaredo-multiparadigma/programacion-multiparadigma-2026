@@ -27,8 +27,8 @@ Cada parte de código es de 100 a 200 líneas. Pequeña a propósito.
 | Qué | Cuándo | Cómo se entrega |
 |---|---|---|
 | **Entrega de las reglas** (Prolog + SQL) | **lun 30 nov, 23:59** | Etiqueta `reglas` en `main` |
+| Checkpoint 3 (individual, sin IA) | vie 4 dic, en clase | 40 minutos |
 | **Entrega final** (lote + ensayos) | **vie 4 dic, 23:59** | Etiqueta `final` en `main` |
-| Checkpoint 3 (individual, sin IA) | mié 2 dic | 40 minutos, en clase |
 | Defensa final del equipo (10 min) | lun 7 · mar 8 · mié 9 dic | En clase, con su repositorio en la etiqueta `final` |
 
 La etiqueta se crea así, desde `main` actualizado:

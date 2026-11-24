@@ -1,6 +1,6 @@
 # Qué repasar para el checkpoint 3
 
-El miércoles 2 de diciembre habrá un checkpoint individual de 40 minutos en clase, sin IA. Repasa estos cuatro objetivos con tus propias palabras:
+El viernes 4 de diciembre habrá un checkpoint individual de 40 minutos en clase, sin IA. Repasa estos cuatro objetivos con tus propias palabras:
 
 - **C4.1** Sigue una consulta Prolog paso a paso, escribe las sustituciones de variables y explica cuándo unifica o falla. Practica con [unificación](../11-unificacion/GUIA.md).
 - **C4.2** Explica qué declara una consulta de SQL o una regla Prolog y qué parte decide el motor. Practica con [el taller SQL](../12-sql-declarativo/).
